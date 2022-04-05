@@ -1,7 +1,9 @@
 (function ($) {
     //preloader js
     $(window).on('load', function () {
+        var fixed_top = $("header");
         $('.preloader').fadeOut(1000);
+        fixed_top.addClass("header--fixed animated fadeInDown");
     })
 
 

@@ -6,14 +6,14 @@
 
 
     //Header
-    var fixed_top = $("header");
+    /*var fixed_top = $("header");
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 200) {
             fixed_top.addClass("header--fixed animated fadeInDown");
         } else {
             fixed_top.removeClass("header--fixed animated fadeInDown");
         }
-    });
+    });*/
     //close mobile menu after clicking nav-link
     $(".nav-link").click(function () {
         $(".navbar-toggler").addClass("collapsed");
